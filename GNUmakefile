@@ -15,7 +15,7 @@ git-%: mcu-uuid-%
 	cd "$<" && git pull -q
 
 pull:
-	echo git pull -q
+	git pull -q
 
 clean:
 	rm -rf html mcu-uuid-*
