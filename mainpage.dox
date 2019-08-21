@@ -1,0 +1,7 @@
+/*!
+\mainpage uuid Microcontroller libraries
+
+- \link uuid uuid-common\endlink: Common utilities
+- \link uuid::log uuid-log\endlink: Logging framework
+- \link uuid::console uuid-console\endlink: Console shell
+*/
