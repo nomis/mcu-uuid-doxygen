@@ -12,7 +12,7 @@ mcu-uuid-%:
 	git clone -q "https://github.com/nomis/$@"
 
 git-%: mcu-uuid-%
-	cd "$<" && git fetch -q && git reset --hard origin/master
+	cd "$<" && git fetch -q && git reset --hard origin/main
 
 pull:
 	git pull -q
