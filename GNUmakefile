@@ -2,7 +2,7 @@
 .SUFFIXES:
 .SECONDARY:
 
-build: git-common git-log git-syslog git-console git-telnet | pull
+build: git-common git-log git-syslog git-console git-telnet git-modbus | pull
 	(cat Doxyfile; echo STRIP_FROM_INC_PATH += $(patsubst git-%,$$PWD/mcu-uuid-%/src,$^)) | doxygen -
 
 www: build
