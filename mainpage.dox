@@ -4,7 +4,7 @@
 - \link uuid uuid-common\endlink: Common utilities
 - \link uuid::console uuid-console\endlink: Console shell
 - \link uuid::log uuid-log\endlink: Logging framework
-- \link uuid::log uuid-syslog\endlink: Syslog service
 - \link uuid::modbus uuid-modbus\endlink: Modbus client
+- \link uuid::syslog uuid-syslog\endlink: Syslog service
 - \link uuid::telnet uuid-telnet\endlink: Telnet service
 */
